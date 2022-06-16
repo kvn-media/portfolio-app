@@ -3,7 +3,7 @@ import 'package:flutter_profile/constants.dart';
 import 'package:flutter_svg/svg.dart';
 
 import 'area_info_text.dart';
-import 'coding.dart';
+import 'programming.dart';
 import 'knowledges.dart';
 import 'my_info.dart';
 import 'skills.dart';
@@ -27,15 +27,15 @@ class SideMenu extends StatelessWidget {
                   children: [
                     AreaInfoText(
                       title: "Residence",
-                      text: "Bangladesg",
+                      text: "Indonesia",
                     ),
                     AreaInfoText(
                       title: "City",
-                      text: "Dhaka",
+                      text: "Jakarta",
                     ),
                     AreaInfoText(
                       title: "Age",
-                      text: "22",
+                      text: "19",
                     ),
                     Skills(),
                     SizedBox(height: defaultPadding),
